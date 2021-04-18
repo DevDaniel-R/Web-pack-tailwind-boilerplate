@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^10.2.5",
     "css-loader": "^5.2.2",
     "postcss": "^8.2.10",
     "postcss-loader": "^5.2.0",
