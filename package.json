@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode=development --config webpack.config.js",
+    "live": "./node_modules/.bin/webpack serve"
   },
   "keywords": [],
   "author": "",
